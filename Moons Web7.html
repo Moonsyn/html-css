@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="KR" dir="ltr">
+
+  <head>
+    <meta charset="utf-8" name="keywords" content="HTML, CSS"> <!--define keywords of webpage for search engine-->
+    <meta name="author" content="Moons/Liam"> <!--define author of webpage-->
+    <meta name="description" content="this is webpage for studying myself"> <!--define description of webpage-->
+    <meta http-equiv="refresh" content="30"> <!--refresh webpage every 30 seconds-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="C:/Users/Moons/Desktop/Moons/html-css/" target="_blank">
+    <title>Moons Web - HTML Forms</title>
+    <style>
+      h5{
+        font-size:25px;
+      }
+    </style>
+  </head>
+
+  <body>
+   <h2>The &lt;form&gt; Element</h2>
+   <p>The HTML &lt;form&gt; element defines a form that is used to collect user input:</p>
+   <p>Form elements are different types of input elements, like text fields, checkboxes, radio buttons, submit buttons, and more.</p>
+   <h3>Input Element</h3>
+   <h5>Text Input</h5>
+   <p>&lt;input type="text"&gt;defines a one-line input field for text input:</p>
+   <form>
+     Example:<br>
+     <input type="text" name="This is text input"><br>
+   </form>
+   <h5>Radio Button Input</h5>
+   <p>&lt;input type="radio"&gt; defines a radio button.</p>
+   <form>
+     <input type="radio" name="Radio Button Example" value="Number 1">Number 1<br>
+     <input type="radio" name="Radio Button Example" value="Number 2">Number 2<br>
+     <input type="radio" name="Radio Button Example" value="Number 3">Number 3<br>
+   </form>
+   <h5>Submit Button</h5>
+   <p>&lt;input type="submit"&gt; defines a button for submitting the form data to a form-handler</p>
+   <p>The form-handler is typically a server page with a script for processing input data</p>
+   <p>The form-handler is specified in the form's action attribute:</p>
+   <form action="/action_page.php" target="_blank" method="get">
+    First name:<br>
+    <input type="text" name="firstname" value="Mickey"><br>
+    Last name:<br>
+    <input type="text" name="lastname" value="Mouse"><br>
+    <input type="submit" value="Submit">
+   </form>
+   <h5>The &lt;select&gt; Element</h5>
+   The &lt;select&gt; element defines a <b>drop-down list:</b><br>
+   <select name="cars">
+     <option value="volvo">Volvo</option>
+     <option value="saab">Saab</option>
+     <option value="fiat">Fiat</option>
+     <option value="audi">Audi</option>
+   </select>
+  </body>
+</html>
+

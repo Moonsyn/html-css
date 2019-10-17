@@ -16,3 +16,9 @@ p{
     font-size: 10px;
     padding:30px;
 }
+#p01{
+    color:violet;
+}
+p.error{
+    color:burlywood;
+}
